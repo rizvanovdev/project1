@@ -1,19 +1,38 @@
 body {
     background-color: #f1f1f1;
-     font: normal 17px sans-serif;
+    background-image: linear-gradient(to bottom, rgba(216, 216, 213, 0.5), rgba(83, 83, 83, 0.5)), url(https://uprostim.com/wp-content/uploads/2021/04/image082-10-1.jpg);
+     background-repeat: no-repeat ;
+     background-size: cover;
+    font: normal 17px sans-serif;
     }
-.avatar{
+ .avatar{
     width: 285px;
     border-radius: 10px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .info {
     color: black;
+    display: flex;
 }
+a:hover{ color:blue;}
+.info-text{padding-left: 40px;}
 .container{
-    max-width: 50%;
+    padding-top: 40px;
+    max-width: 75%;
     margin: auto;
+    padding-bottom: 40px;
 }
-.a {
+
+a {
     color: black;
+}
+.card{
+    background-color: rgb(213, 205, 252);
+    border-radius: 25px;
+    margin-bottom: 30px;
+    padding: 25px;
+    margin-top: 30px;
+}
+.container h2{
+    text-align: center;
 }
