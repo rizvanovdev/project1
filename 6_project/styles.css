@@ -30,7 +30,7 @@ body{
 .element{
     padding: 0 20px;
 }
-.box1{
+.box{
     height: 300px;
     width: 600px;
     display: flex;
@@ -42,53 +42,12 @@ font-size: 50px;
 line-height: 57px;
 text-align: center;
 margin: 20px;
-margin-bottom: 30px;
+}
 
-}
-.container li{
-    display: inline-block;
-}
-ul{display: inline-block;}
 .container{
-    max-width: 1440px;
-    margin-left: -20px;
+    width:100%;
     margin-top: 65px;
-    display: inline-block;
-}
-.box2{
-    height: 300px;
-    width: 600px;
     display: flex;
-    align-items:center;
+    flex-wrap: wrap;
     justify-content: center;
-    border: 5px solid black;
-    font-family: Helvetica;
-    font-size: 50px;
-    line-height: 57px;
-    text-align: center;
-    margin: 20px;}
-.box3{
-        height: 300px;
-        width: 600px;
-        display: flex;
-        align-items:center;
-        justify-content: center;
-        border: 5px solid black;
-        font-family: Helvetica;
-        font-size: 50px;
-        line-height: 57px;
-        text-align: center;
-        margin: 20px;
-        margin-bottom: 30px;}
-.box4{
-            height: 300px;
-            width: 600px;
-            display: flex;
-            align-items:center;
-            justify-content: center;
-            border: 5px solid black;
-            font-family: Helvetica;
-            font-size: 50px;
-            line-height: 57px;
-            text-align: center;
-            margin: 20px;}
+}
